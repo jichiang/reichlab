@@ -1,0 +1,29 @@
+Projected timeline to integrate Bootstrap CSS w/ Jekyll for ReichLab website
+(with estimated time required)
+
+
+- Fork reichlab repo to another GitHub repo that is hosted using GitHub pages. this will ensure that we can test updates. (1 hr)
+	- github pages...I've seen this but thought it was easier to use "...github.io". Is this what Nick may mean? 
+	- Either way, I'll try it on my page: shv38339.github.io
+
+- migrate forked Reich Lab website into a jekyll framework. no blog, just editable pages in .md format, existing styles preserved. (6 hrs)
+	- I don't think this will be possible as much of it is already tied to the css and html.
+	- What is in a Jekyll format are the following directories/files:
+		- _includes
+			- header.html, footer.html
+		- _layouts
+			- default.html, post.html
+		- _posts
+			- testpost.md
+		- archive.md
+			- simple markdown page written in Liquid to store all blog posts
+		- _config.yml
+			- need to explore these options but wonder if they may interfere with css
+
+- integrate blog into forked Reich Lab site. includes blog landing page, blog entry template, one test blog post. (10 hours) 
+	- unsure of what this may mean other than Nick forking the directory into his own. 
+
+- test site, check that rest of site remains the same as it was, launch new site (3 hours)
+ - write-up tutorial to write a blog for BLOG folder
+ - write-up tutorial on different types of blog posts (with code, pictures, mobile, etc- 
+
