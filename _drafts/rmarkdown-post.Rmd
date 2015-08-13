@@ -4,7 +4,7 @@ layout: post
 ---
 
 ```{r, echo=FALSE}
-knitr::opts_chunk$set(fig.path='{{ site.url }}/images/rmarkdown-post-')
+knitr::opts_chunk$set(fig.path='{{ site.baseurl }}/images/rmarkdown-post-')
 ```
 
 These posts can also be written and saved as a ".Rmd" file. The method is a bit tricky as I have not found a full-proof and simple method, but the following will outline one way.

@@ -109,7 +109,7 @@ layout: default
                         <h3>{{ post.title }}</h3>
                         <h5>{{ post.date | date_to_long_string }}</h5>
                         <p>
-                        <a href="{{ post.url }}">Read Post</a>
+                        <a href="{{ site.baseurl }}{{ post.url }}">Read Post</a>
                         </p>
                     </div>
                     {% endfor %}

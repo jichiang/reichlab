@@ -21,7 +21,7 @@ For example, we create the following plot with the following code:
 plot(cars)
 ```
 
-![plot of chunk car-plot](/images/rmarkdown-post-car-plot-1.png) 
+![plot of chunk car-plot]({{ site.baseurl }}/images/rmarkdown-post-car-plot-1.png) 
 
 There are two things that must be installed for this to work:
 
