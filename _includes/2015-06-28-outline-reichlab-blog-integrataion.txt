@@ -6,6 +6,7 @@ Updated todo list (8/13/2015)
 - test it out some more (both Nick and Steele)
 - submit pull request
 - have a beer
+- Here is the link for the blog landing page: http://ironsummitmedia.github.io/startbootstrap-modern-business/blog-home-1.html#
 
 submitted time sheet for 15 of 20 hours on 8/13/2015
 
