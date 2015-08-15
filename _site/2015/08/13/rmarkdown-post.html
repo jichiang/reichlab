@@ -61,84 +61,16 @@
                         <a href="/reichlab/teaching.html">Teaching</a>
                     </li>
                     <li>
-                        <a href="/reichlab/archive.html">Archive</a>
-                    </li>
-                
-<!--                
-                    <li>
-                        <a href="services.html">Research</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="portfolio-item.html">Single Portfolio Item</a>
-                            </li>
-                        </ul>
-                    </li>
-                    -->                    
-
-<!--                
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="blog-home-1.html">Blog Home 1</a>
-                            </li>
-                            <li>
-                                <a href="blog-home-2.html">Blog Home 2</a>
-                            </li>
-                            <li>
-                                <a href="blog-post.html">Blog Post</a>
-                            </li>
-                        </ul>
-                    </li>
--->
-<!--                                    
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="full-width.html">Full Width Page</a>
-                            </li>
-                            <li>
-                                <a href="sidebar.html">Sidebar Page</a>
-                            </li>
-                            <li>
-                                <a href="faq.html">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="404.html">404</a>
-                            </li>
-                            <li>
-                                <a href="pricing.html">Pricing Table</a>
-                            </li>
--->
-                        </ul>
+                        <a href="/reichlab/blog.html">Blog</a>
                     </li>
                 </ul>
+            </li>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
 
-	<div class="row-fluid">
+<div class="container">
+	<div class="row">
   		<div class="col-xs-12">
   			<h1> RMarkdown Post </h1>
 
@@ -146,7 +78,8 @@
     			13 August 2015
     		</p>
 
-    		<p>These posts can also be written and saved as a “.Rmd” file. The method is a bit tricky as I have not found a full-proof and simple method, but the following will outline one way.</p>
+    		<p>These posts can also be written and saved as a “.Rmd” file. The method is a bit tricky as I have not found a full-proof and simple method, but the following will outline one way.
+<!--more--></p>
 
 <p>In the root file of this website’s directory, you’ll notice a <code>_drafts</code> folder. This folder is intended for all <code>*.Rmd</code> files, which I cannot stress enough. In this folder, there will be a file named <code>r2jekyll.R</code>. In order to execute this file, we must access its permission by the command <code>chmod +x</code>. Yes, those are the letters <code>chmod</code>, followed by a <strong>space</strong>, followed by the keys <code>+x</code>. </p>
 
@@ -162,22 +95,11 @@ plot(cars)
 
 <p><img src="/reichlab/images/rmarkdown-post-car-plot-1.png" alt="plot of chunk car-plot" /> </p>
 
-<p>There are two things that must be installed for this to work:</p>
-
-<ul>
-  <li><code>knitr</code> package in R</li>
-  <li><code>rinruby</code> for your respective OS
- 	* &gt; sudo gem install rinruby [for MAC users]</li>
-</ul>
-
-<h4 id="cumbersome-details">Cumbersome Details</h4>
-
-<p>This process is a bit tedious and more information can be found at this <a href="https://sites.google.com/a/ddahl.org/rinruby-users/">link</a>. Additionally, “…a Jekyll plugin that provides an Rmarkdown “converter” so you can write your posts and pages in Rmarkdown…” is located at this <a href="https://github.com/atbradley/jekyll-rmarkdown">link</a>. Essentially, it says in order to render a “.Rmd” file, we need a plug-in, which is located in the <code>_plugins</code> folder. </p>
-
 
 
   		</div>
 	</div>
+</div>
 
         <!-- Footer -->
         <footer>

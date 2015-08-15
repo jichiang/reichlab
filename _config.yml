@@ -5,6 +5,8 @@ url: "shv38339.github.io/reichlab/"
 baseurl: "/reichlab"
 
 paginate: 5
+paginate_path: "/reichlab/page:num"
+excerpt_separator: <!--more-->
 
 markdown: kramdown
 

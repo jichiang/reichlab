@@ -1,7 +1,7 @@
 Updated todo list (8/13/2015)
 - integrate blog landing page from Modern Business template
 - integrate blog post template from same
-- add excerpts to posts on homepage
+x add excerpts to posts on homepage
 - add examples of metadata (authors, categories) to posts
 - test it out some more (both Nick and Steele)
 - submit pull request
